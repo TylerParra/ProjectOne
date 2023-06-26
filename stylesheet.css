@@ -42,11 +42,10 @@ body {
 .firstColumn {
     display:flex;
     flex-direction:column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    padding-left: 90px;
-    width: 500px;
-
+    width: 960px;
+    height: 400px;
     
     
 
@@ -54,8 +53,15 @@ body {
 
 .secondColumn {
     display:flex;
-    
+    justify-content:center;
+    align-items: center;
+    height: 400px;
+    width: 960px;
+}
 
+.sampletext {
+    width:300px;
+    height:300px;
 }
 
 
@@ -73,6 +79,7 @@ body {
     font-weight:extra-bold;
     flex-wrap:wrap;
     color:white;
+    width: 400px;
     
     
     
@@ -88,15 +95,10 @@ body {
     font-size:18px;
     color:#E5E7EB;
     flex-wrap:wrap;
-    width: 200px;
+    width:400px;
     
-    
-    
-    
-    
+}
 
-    
-    
-    
-
+.buttontext {
+    color:white;
 }

@@ -1,5 +1,8 @@
 body {
     margin:0;
+    
+    font-family: "Roboto", Arial, sans-serif;
+    
 }
 
 .firstbox {
@@ -42,10 +45,11 @@ body {
 .firstColumn {
     display:flex;
     flex-direction:column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     width: 960px;
     height: 400px;
+    padding-left:120px;
     
     
 
@@ -76,10 +80,11 @@ body {
 
 .maintext {
     font-size:48px;
-    font-weight:extra-bold;
+    font-weight:800;
     flex-wrap:wrap;
     color:white;
     width: 400px;
+    margin-bottom:5px;
     
     
     
@@ -96,9 +101,50 @@ body {
     color:#E5E7EB;
     flex-wrap:wrap;
     width:400px;
+    margin-bottom:5px;
     
 }
 
 .buttontext {
-    color:white;
+    background-color:#3882F6;
+    border-radius:15px;
+    padding:15px;
+    
+    width:60px;
+    
+    
+
+}
+
+.secondContainer {
+    display:flex;
+    height: 400px;
+    justify-content: space-evenly;
+    margin-left:200px;
+    margin-right:200px;
+    
+}
+
+
+
+.secondContainer img {
+    height: 200px;
+    width: 200px;
+    
+    border:10px solid #3882F6;
+    border-radius:10px;
+    
+    
+    
+    
+    
+
+}
+
+.textAboveImages {
+    text-align: center;
+    margin:30px;
+    font-size:36px;
+    font-weight: 800;
+    color:#1F2937;
 }
